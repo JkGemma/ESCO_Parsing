@@ -1,0 +1,692 @@
+@prefix jolux: <http://data.legilux.public.lu/resource/ontology/jolux#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix skosXl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix iso-thes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab-adms: <https://www.w3.org/TR/vocab-adms/#> .
+@prefix at:    <http://publications.europa.eu/ontology/authority/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix esco:  <http://data.europa.eu/esco/model#> .
+@prefix rov:   <http://www.w3.org/ns/regorg#> .
+@prefix etms:  <http://data.europa.eu/esco/etms/model/#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix qdr:   <http://data.europa.eu/esco/qdr#> .
+
+<http://data.europa.eu/esco/label/7e04ec01-38a9-4937-aa53-449045cfff08>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> ;
+        skosxl:literalForm  "bezpečnostná administrátorka"@sk .
+
+<http://data.europa.eu/esco/node-literal/c6f1f959-b9f2-41d9-a89c-9bc4e9fb3710>
+        a                 esco:NodeLiteral ;
+        esco:language     "et"^^xsd:language ;
+        esco:nodeLiteral  "Jookide impordi ja ekspordi juhid panevad paika ja haldavad sise- ja välisosapooltega kooskõlastades piiriülese äritegevuse korda." .
+
+<http://data.europa.eu/esco/label/62db8a81-f3a7-46da-aa01-2d27d9d88ded>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "utilizează programare automată"@ro .
+
+<http://data.europa.eu/esco/node-literal/44537d03-2906-48e2-a37a-c0708c9f2832>
+        a                 esco:NodeLiteral ;
+        esco:language     "it"^^xsd:language ;
+        esco:nodeLiteral  "Si occupa dell’assemblaggio e della manutenzione di attrezzature e macchine meccatroniche complesse quali robot, ascensori ed elettrodomestici avanzati. Costruisce componenti meccaniche, elettriche ed elettroniche, installa software, configura i sistemi in funzione e si occupa della manutenzione e della riparazione dei componenti e dei sistemi." .
+
+<http://data.europa.eu/esco/label/5f243bad-36c8-4559-8e1b-675b7b1a5d67>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "Vorschriften für Tiertransporte"@de .
+
+<http://data.europa.eu/esco/relation/57C88A6E-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/82fe0140-7069-47f9-a7d4-d63a611cb5bd> ;
+        esco:target            <http://data.europa.eu/esco/skill/d952e003-b5af-4a8a-9d32-921d34dc4907> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/optional-skill> .
+
+<http://data.europa.eu/esco/label/86b74dcd-d4bc-40f0-b6aa-660b3940d18e>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "fishing boat freezer engineer"@en .
+
+<http://data.europa.eu/esco/label/efce6fbe-eb60-4cdb-9afb-e62e1c8ef869>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "főiskolai képzőművész-tanár"@hu .
+
+<http://data.europa.eu/esco/node-literal/be24cce5-34cf-4071-8169-7162eb1087e7>
+        a                 esco:NodeLiteral ;
+        esco:language     "hu"^^xsd:language ;
+        esco:nodeLiteral  "A videotervezők vetített képkoncepciót alakítanak ki egy előadásra vonatkozóan, és felügyelik annak végrehajtását. Munkájuk a kutatáson és a művészi elképzelésen alapul. A formatervezési kialakításukat más formatervezési minták is befolyásolják és viszont, és meg kell felelniük ezeknek a kialakításoknak és az általános művészi elképzelésnek. A tervezők ezért szorosan együttműködnek a művészeti rendezőkkel, a működtetőkkel és a művészeti csoporttal. A videotervezők olyan médiaelemeket készítenek, amelyeket egy előadás során használnak, ami magában foglalhatja a felvételt, az összerendezést, a manipulálást és a szerkesztést. A próbák és az előadás során betanítják az üzemeltetőknek az optimális időzítést és manipulációt. A videotervezők terveket, feltérképezést, bevezetési listákat és egyéb dokumentumokat dolgoznak ki az üzemeltetők és a produkciós személyzet támogatására. A videotervezők néha önálló művészként is dolgoznak, videoművészetet létrehozva az előadások keretein kívül." .
+
+<http://data.europa.eu/esco/label/acd6f847-8113-4893-9097-fd53ba50595e>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> ;
+        skosxl:literalForm  "διαχειριστής υπολογιστών και πληροφοριακών συστημάτων"@el .
+
+<http://data.europa.eu/esco/node-literal/a89d7672-6b36-4cbe-ad98-e4a74c155533>
+        a                 esco:NodeLiteral ;
+        esco:language     "fi"^^xsd:language ;
+        esco:nodeLiteral  "Tehdä yhteistyötä hoidettavan asiakkaan tai potilaan kannalta tärkeiden ystävien, perheiden ja muiden merkityksellisten toimijoiden kanssa luottamuksellisuutta ja avoimuutta koskevien ehtojen mukaisesti." .
+
+<http://data.europa.eu/esco/node-literal/31c3f636-a085-425e-b374-15f338f2eb51>
+        a                 esco:NodeLiteral ;
+        esco:language     "pt"^^xsd:language ;
+        esco:nodeLiteral  "Operar em segurança um maçarico de corte alimentado por gás oxiacetileno para efetuar trabalhos de soldadura numa peça." .
+
+<http://data.europa.eu/esco/node-literal/0bc8a828-699e-4ae8-b3be-2a9d79f1910f>
+        a                 esco:NodeLiteral ;
+        esco:language     "sl"^^xsd:language ;
+        esco:nodeLiteral  "Ščetkali ali nanašati kislino na strojna orodja za graviranje, da se izboljša vidnost napisov." .
+
+<http://data.europa.eu/esco/node-literal/2654926a-9983-4087-b29f-4cad761e95cf>
+        a                 esco:NodeLiteral ;
+        esco:language     "no"^^xsd:language ;
+        esco:nodeLiteral  "Den spesifikke markedsføringsstrategien som fokuserer på direkte markedsføring og salg av produkter til bekjente eller personer i deres nettverk. Denne strategien omfatter også rekruttering av andre mennesker for å være salgsrepresentanter og for å representere selskapet." .
+
+<http://data.europa.eu/esco/node-literal/741ef3ac-95d4-47ea-9d63-fb5909b155ed>
+        a                 esco:NodeLiteral ;
+        esco:language     "sv"^^xsd:language ;
+        esco:nodeLiteral  "Rättsligt område som anger och reglerar frågor och rättslig praxis för handel med varor och tjänster." .
+
+<http://data.europa.eu/esco/node-literal/cdbb9e40-dc0a-49bf-a080-9a82a439864b>
+        a                 esco:NodeLiteral ;
+        esco:language     "lv"^^xsd:language ;
+        esco:nodeLiteral  "Vākt informāciju un rakstīt paziņojumus presei, pielāgojot tekstu reģistru mērķauditorijai un nodrošinot, ka ziņojums tiek pienācīgi uztverts." .
+
+<http://data.europa.eu/esco/label/9ffbd33e-5b43-4ab2-a4dd-bf055d51e92e>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "draw up assessment of risks"@en .
+
+<http://data.europa.eu/esco/label/fc25ee50-c5bf-4d52-88ec-fd12dd3bfbea>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "sodelovati z lastniki nepremičnin"@sl .
+
+<http://data.europa.eu/esco/relation/55A441E2-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/b73f4ce5-13fa-43a0-bbf6-01d7315849b8> ;
+        esco:target            <http://data.europa.eu/esco/skill/6d80a4cb-cad2-435c-b899-e0e91fda07d6> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/essential-skill> .
+
+<http://data.europa.eu/esco/label/bd858628-bf50-4940-a8a7-d1a1431be807>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "Ständerbohrmaschinenöl"@de .
+
+<http://data.europa.eu/esco/label/1dccbe89-fdcb-414d-a9e4-fe38cfbbd63b>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "Preise angeben"@de .
+
+<http://data.europa.eu/esco/label/da332369-6d03-43cd-b247-e1b5fb14e1b9>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "дизайнер и производител на компютърни игри"@bg .
+
+<http://data.europa.eu/esco/label/f33ac2e7-a7bf-4d47-b386-bbaa47adf275>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "eläinten hierojat"@fi .
+
+<http://data.europa.eu/esco/node-literal/3971aec9-4924-48d3-8b4e-e2c0092a2e1a>
+        a                 esco:NodeLiteral ;
+        esco:language     "el"^^xsd:language ;
+        esco:nodeLiteral  "Συντονισμός των εργασιών που εκτελούνται στις γεωτρήσεις πετρελαίου όπως είναι το κλείσιμο και τα μεγάλα έργα." .
+
+<http://data.europa.eu/esco/label/fdfffb7f-cad7-40e4-ba79-8bea6411a6c8>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> ;
+        skosxl:literalForm  "Industriemechanikerin"@de .
+
+<http://data.europa.eu/esco/label/15411fb6-8a36-4168-9f69-0416e49038a2>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "Advantage Database Server"@hu .
+
+<http://data.europa.eu/esco/label/17502f8e-d88b-4ee3-9330-f802c6a597ae>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "cúram leanaí agus seirbhísí don óige"@ga .
+
+<http://data.europa.eu/esco/label/0c5811dc-ba6a-4b8e-8a25-e804d5fd347c>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> ;
+        skosxl:literalForm  "Programadora de aplicações"@pt .
+
+<http://data.europa.eu/esco/label/ad2064eb-23f8-4c81-b6fb-1159fa652208>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "ensure correct menu prices"@en .
+
+<http://data.europa.eu/esco/relation/58AC9678-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/f3fc11ca-9a72-40da-bf0f-b2aab7e33079> ;
+        esco:target            <http://data.europa.eu/esco/skill/0e13adb5-f135-429b-94c3-24cc1cf1b1ac> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/essential-skill> .
+
+<http://data.europa.eu/esco/isco/C223/label/20500A96-ECED-11E5-A8F8-F968891CE521>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "Profesionales de medicina tradicional y alternativa"@es .
+
+<http://data.europa.eu/esco/label/9fd616ca-5dbc-4263-ac21-e667727fc406>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "Bestand der Bar prüfen"@de .
+
+<http://data.europa.eu/esco/node-literal/b9973473-a8a6-4f75-9551-22c1f1a25346>
+        a                 esco:NodeLiteral ;
+        esco:language     "es"^^xsd:language ;
+        esco:nodeLiteral  "Traducir letras de ópera o teatro para reflejar con precisión en otros idiomas el significado y los matices del libreto artístico." .
+
+<http://data.europa.eu/esco/label/cd04d411-fa04-4bac-b71a-86c4f73bf10e>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "idrottsfunktionär"@sv .
+
+<http://data.europa.eu/esco/node-literal/105457d4-9d8d-4b43-bac9-592967e941ae>
+        a                 esco:NodeLiteral ;
+        esco:language     "sv"^^xsd:language ;
+        esco:nodeLiteral  "Grossister (ur, guldsmedsvaror och smycken) undersöker potentiella grossistköpare och -leverantörer och tillgodoser deras behov. De bedriver handel med stora varumängder." .
+
+<http://data.europa.eu/esco/label/2bf3ce63-bbbe-4535-8156-318dfc6eff6a>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> ;
+        skosxl:literalForm  "rappreżentanta tal-bejgħ tekniku tal-makkinarju tax-xogħol tal-minjieri u tal-kostruzzjoni"@mt .
+
+<http://data.europa.eu/esco/label/a4a54ecf-0121-48a5-899f-a3ba44104f8e>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "formule van de zeep toepassen"@nl .
+
+<http://data.europa.eu/esco/relation/5303712E-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/e34b93ec-5e11-4858-ba1e-e245c4c39cec> ;
+        esco:target            <http://data.europa.eu/esco/skill/3edfcb2b-2d0e-4673-87ce-f55c37eb5fca> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/optional-skill> .
+
+<http://data.europa.eu/esco/label/9bbeed0d-6b0b-4af0-9a98-a2ea502de45f>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> ;
+        skosxl:literalForm  "operátor odhŕňača snehu"@sk .
+
+<http://data.europa.eu/esco/label/1bcf8ab7-695e-4a54-aae8-045f06b4f18f>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "анализиране на данни от хазартни игри"@bg .
+
+<http://data.europa.eu/esco/label/8a346f40-81d4-49b5-bca8-4a1738751097>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "managing mine site data"@en .
+
+<http://data.europa.eu/esco/label/cb83cf44-d3af-467f-b108-d41a4538020b>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "perform crane equipment inspections"@en .
+
+<http://data.europa.eu/esco/node-literal/e9faa6e3-babd-453b-afec-bf422365aa59>
+        a                 esco:NodeLiteral ;
+        esco:language     "fi"^^xsd:language ;
+        esco:nodeLiteral  "Ahtaajat lajittelevat, käsittelevät lastaavat ja purkavat rahtia maakuljetusvälineisiin. He noudattavat suullisia ja kirjallisia ohjeita sekä valtion määräyksiä. He siirtävät rahtia, kuten laatikoita, tilaa vieviä esineitä tai jopa suuria kuormalavoja, varastoalueille tai kuljetusvälineisiin." .
+
+<http://data.europa.eu/esco/label/340c4873-c8d0-4a0f-9c4c-c7680fd4150f>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "utilizzare le pompe negli impianti di acquacoltura"@it .
+
+<http://data.europa.eu/esco/label/59af96e2-fb73-4578-90c2-0cc1a78b07b3>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> ;
+        skosxl:literalForm  "préparatrice de poisson"@fr .
+
+<http://data.europa.eu/esco/label/75f77f04-ec34-4f33-812e-fef6a4b63b68>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "Harvest"@et .
+
+<http://data.europa.eu/esco/label/a53d32ab-cf81-4826-99da-86a29f9343bf>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "išskirstyti žaliavas"@lt .
+
+<http://data.europa.eu/esco/label/39c15a22-ffef-4cf9-9d40-bb6fcad579b0>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "adviseren over zwangerschappen"@nl .
+
+<http://data.europa.eu/esco/label/7eab6c40-6570-45d3-b617-94473c062930>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "инспектиране на кораб"@bg .
+
+<http://data.europa.eu/esco/label/27454258-9dd4-4a04-9c87-15e2cc7a0940>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "atlikti kamieninių ląstelių persodinimą"@lt .
+
+<http://data.europa.eu/esco/label/580F91875CECE80008001317>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "cestár"@sk .
+
+<http://data.europa.eu/esco/relation/563015D3-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/6c39cf1c-7332-41c1-86c3-6ed3daf3c479> ;
+        esco:target            <http://data.europa.eu/esco/skill/1d07fabb-77ff-4572-bdbf-920546604930> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/optional-skill> .
+
+<http://data.europa.eu/esco/label/a3d27845-a14a-4126-b353-5d0c70f755bd>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> ;
+        skosxl:literalForm  "predavač suvremenih jezika"@hr .
+
+<http://data.europa.eu/esco/label/12c9cc6c-ce52-4cec-b4f7-af430636e25f>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> ;
+        skosxl:literalForm  "ειδικός εισαγωγών-εξαγωγών ζάχαρης, σοκολάτας και ζαχαρωδών παρασκευασμάτων"@el .
+
+<http://data.europa.eu/esco/relation/55525076-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/18e14e61-495b-44cc-a7c6-df4c625934ba> ;
+        esco:target            <http://data.europa.eu/esco/skill/4be3c34e-47ba-4881-ac74-8bd244e0b04c> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/essential-skill> .
+
+<http://data.europa.eu/esco/label/c39b5e5d-be44-403e-ac6c-47f96b8ffbca>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "oibreoir meaisín trétharraingthe"@ga .
+
+<http://data.europa.eu/esco/node-literal/7f970cfa-eef2-4190-ade3-4b08c95f741b>
+        a                 esco:NodeLiteral ;
+        esco:language     "sl"^^xsd:language ;
+        esco:nodeLiteral  "Inšpektorji za nadzor nad nevarnimi odpadki pregledujejo industrijske obrate, da se zagotovi, da ti spoštujejo zakonodajo o odstranjevanju odpadkov, in pregledujejo njihovo opremo, da se preveri, ali je operativna in ali deluje v skladu s predpisi. Njihov namen je tudi izobraževati javnost o nevarnih snoveh in predpisih glede ravnanja z nevarnimi odpadki." .
+
+<http://data.europa.eu/esco/label/533d384f-754e-4541-a1a4-79bf350dac8f>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "docent voeding beroepsonderwijs"@nl .
+
+<http://data.europa.eu/esco/label/e041c840-9023-4b4a-ba42-ecfa64ef8dc4>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> ;
+        skosxl:literalForm  "valutatur tal-iwweldjar"@mt .
+
+<http://data.europa.eu/esco/node-literal/a8c351b7-0f74-4293-9804-dd1a3cfc37b5>
+        a                 esco:NodeLiteral ;
+        esco:language     "fi"^^xsd:language ;
+        esco:nodeLiteral  "Tarkastaa ja merkitä työkappaleen osia sen mukaan, miten ne kiinnitetään valmiiseen tuotteeseen." .
+
+<http://data.europa.eu/esco/label/f8924480-3f52-48ba-b956-b98e40d3342e>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "desenhar cenários de palco"@pt .
+
+<http://data.europa.eu/esco/label/c5594304-2557-4915-a1cc-9d88f67adc63>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "sviluppare le procedure di lavoro"@it .
+
+<http://data.europa.eu/esco/label/1b887292-8b28-4d2e-a285-b938921a588d>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "az előadók képzéseit vezeti"@hu .
+
+<http://data.europa.eu/esco/label/f84a46a4-85a2-4c8d-b60e-501cca698c08>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "ge råd åt kunder om olika klädstilar"@sv .
+
+<http://data.europa.eu/esco/node-literal/73244eae-2552-4db7-9591-9ad2cce7434f>
+        a                 esco:NodeLiteral ;
+        esco:language     "nl"^^xsd:language ;
+        esco:nodeLiteral  "Overeenkomsten afsluiten met aanbieders van accommodatie, vervoer en recreatie." .
+
+<http://data.europa.eu/esco/relation/538F9439-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/6d16c41d-81a7-44a9-836d-7aed46ccb955> ;
+        esco:target            <http://data.europa.eu/esco/skill/e525ee2b-3c85-4b94-b07e-c79dda267b7b> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/optional-skill> .
+
+<http://data.europa.eu/esco/node-literal/92519449-6861-4fc8-9bb0-0e3a4c78975e>
+        a                 esco:NodeLiteral ;
+        esco:language     "en"^^xsd:language ;
+        esco:nodeLiteral  "Includes all local and general anaesthetics used for diagnosis, treatments and management procedures." .
+
+<http://data.europa.eu/esco/node-literal/e96a37d8-e8d3-465e-9903-40a8cc851adf>
+        a                 esco:NodeLiteral ;
+        esco:language     "pt"^^xsd:language ;
+        esco:nodeLiteral  "A produção de energia elétrica através da utilização de reatores nucleares, convertendo a energia libertada dos núcleos de átomos em reatores geradores de calor. Este calor gera posteriormente vapor que pode alimentar uma turbina a vapor para produzir eletricidade." .
+
+<http://data.europa.eu/esco/label/deab452b-8ad8-4901-a35c-391fcd122aa3>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> , <http://data.europa.eu/esco/label-role/male> ;
+        skosxl:literalForm  "referentka ochrany veřejného zdraví"@cs .
+
+<http://data.europa.eu/esco/label/c773b532-e1e0-49ab-9e60-fce293d92bd4>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "fylgist með frystingarferli"@is .
+
+<http://data.europa.eu/esco/label/7260b2df-a4f5-4c39-9049-e520efa8e330>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> ;
+        skosxl:literalForm  "častnik vojne mornarice"@sl .
+
+<http://data.europa.eu/esco/node-literal/763d0661-2536-4ca1-8ea8-a54f9cb62982>
+        a                 esco:NodeLiteral ;
+        esco:language     "sl"^^xsd:language ;
+        esco:nodeLiteral  "Učenje učečih se odraslih teorijo in prakso osnovne pismenosti, natančneje, pri branju in pisanju, da bi olajšali prihodnje učenje ter izboljšali zaposlitvene možnosti ali optimalno vključevanje; Sodelovati z odraslimi učenci, da bi zadovoljili potrebe po pismenosti, ki izhajajo iz njihove zaposlitve, skupnosti ter osebnih ciljev in želja." .
+
+<http://data.europa.eu/esco/node-literal/6f646563-3476-4c8e-b0ff-503b49046681>
+        a                 esco:NodeLiteral ;
+        esco:language     "sv"^^xsd:language ;
+        esco:nodeLiteral  "Rekreationsterapeuter behandlar personer med beteendestörningar eller relaterade sjukdomstillstånd. De använder metoder och åtgärder såsom konst, musik, djur och dans för att främja, upprätthålla och återställa patientens utveckling och hälsa." .
+
+<http://data.europa.eu/esco/relation/561E761A-1AD9-11E7-B43F-E10FE2FA9FC2>
+        a                      esco:AssociationObject ;
+        esco:isAssociationFor  <http://data.europa.eu/esco/occupation/1aadb308-432a-4d01-b54b-b4f7f76dd419> ;
+        esco:target            <http://data.europa.eu/esco/skill/06cf28f4-608d-4fb9-94c5-c0698d70ea71> ;
+        esco:targetFramework   <http://data.europa.eu/esco/concept-scheme/member-skills> , <http://data.europa.eu/esco/concept-scheme/skills> ;
+        dct:type               <http://data.europa.eu/esco/relationship-type/essential-skill> .
+
+<http://data.europa.eu/esco/node-literal/24493e04-0f35-48db-b1c6-0154acbed13f>
+        a                 esco:NodeLiteral ;
+        esco:language     "cs"^^xsd:language ;
+        esco:nodeLiteral  "Herní engine id Tech, který je softwarovým rámcem, který se skládá z integrovaných vývojových prostředí a specializovaných návrhářských nástrojů určených k rychlé iteraci uživatelských počítačových her." .
+
+<http://data.europa.eu/esco/node-literal/aaf3bb4a-6a69-46ff-9ce2-a699c75c9c5f>
+        a                 esco:NodeLiteral ;
+        esco:language     "fr"^^xsd:language ;
+        esco:nodeLiteral  "Rédiger un rapport de notation pour déterminer la qualité des gemmes." .
+
+<http://data.europa.eu/esco/isco/C9623/label/1F5F589E-ECED-11E5-A8F8-F968891CE521>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "Mätaravläsare"@sv .
+
+<http://data.europa.eu/esco/label/ef6a4469-a480-415d-9a50-8a471a56fb4c>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "pečovat o nehty"@cs .
+
+<http://data.europa.eu/esco/node-literal/22ca6309-f5d3-41c9-a8bc-d5a843e0adfa>
+        a                 esco:NodeLiteral ;
+        esco:language     "pl"^^xsd:language ;
+        esco:nodeLiteral  "Skręcanie włosów danej osoby przy użyciu odpowiednich technik i produktów." .
+
+<http://data.europa.eu/esco/node-literal/ed70a348-998e-423f-85c2-73d7aa4cf8eb>
+        a                 esco:NodeLiteral ;
+        esco:language     "bg"^^xsd:language ;
+        esco:nodeLiteral  "Изпълнява задачи за приготвяне на храни съгласно рецепта или спецификация с цел да се запази качеството на съставките и да се осигури точност на възпроизвеждане на рецептата. Избира подходящите материали за изпълнение на рецептата, като взема предвид текущото състояние." .
+
+<http://data.europa.eu/esco/node-literal/2dd35070-2d63-48e6-a6cb-3ea910af95ff>
+        a                 esco:NodeLiteral ;
+        esco:language     "fr"^^xsd:language ;
+        esco:nodeLiteral  "Examiner l’éligibilité des citoyens demandant des prestations de sécurité sociale par l’examen de documents, l’entretien avec le citoyen et la recherche de la législation en la matière." .
+
+<http://data.europa.eu/esco/label/33010dcd-eab4-4e72-811f-110ecf87ba90>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "διαχείριση μεσοπρόθεσμων στόχων τουριστικής επιχείρησης"@el .
+
+<http://data.europa.eu/esco/label/87146fac-8721-4c63-91e8-8cf6abf3ce71>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> ;
+        skosxl:literalForm  "técnico instalador de sistemas de drenajes"@es .
+
+<http://data.europa.eu/esco/node-literal/5ea1bf9a-8ea7-4eaf-bd78-13129b099222>
+        a                 esco:NodeLiteral ;
+        esco:language     "pt"^^xsd:language ;
+        esco:nodeLiteral  "Métodos utilizados para avaliar as competências clínicas em dietética." .
+
+<http://data.europa.eu/esco/node-literal/44ac1e95-ea70-4511-9ffc-b9994b4ee15a>
+        a                 esco:NodeLiteral ;
+        esco:language     "pt"^^xsd:language ;
+        esco:nodeLiteral  "Avaliar e aprovar ou recusar empréstimos para fins comerciais, imobiliários ou de crédito. Acompanhar a sua situação e aconselhar os mutuários sobre a situação financeira e os métodos de pagamento. \n \n " .
+
+<http://data.europa.eu/esco/label/fc81fe64-13f0-47b5-8e33-5792996fb605>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "SA8000"@ga .
+
+<http://data.europa.eu/esco/label/39c4bea4-997c-4b81-a984-6674581ad66f>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "pelletprést működtet"@hu .
+
+<http://data.europa.eu/esco/label/52078ed0-4c13-4ea8-be6e-5e81afdaf8d3>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "stredoškolský učiteľ/stredoškolská učiteľka zemepisu"@sk .
+
+<http://data.europa.eu/esco/label/7fb70690-6de8-486a-a9f6-50773a8ae7a6>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "defining manufacturing quality criteria"@en .
+
+<http://data.europa.eu/esco/isco/C7115/label/1EE85528-ECED-11E5-A8F8-F968891CE521>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "Mastrudaxxi u ħaddiema li jgħaqqdu l-għamara"@mt .
+
+<http://data.europa.eu/esco/label/d82c3a27-ecf8-4d44-8773-e7c2b2925e7a>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "Dramski umjetnici/dramske umjetnice"@hr .
+
+<http://data.europa.eu/esco/node-literal/14d14e47-b270-4976-8e81-79d7c4ec63dd>
+        a                 esco:NodeLiteral ;
+        esco:language     "no"^^xsd:language ;
+        esco:nodeLiteral  "Den teknikken som brukes i akupunktur, der elektrisk ledende puter festes på huden, og en strøm med lav frekvens sendes gjennom dem for å stimulere akupunkturpunktene." .
+
+<http://data.europa.eu/esco/node-literal/2d9d0731-8556-4f28-9691-bde530245766>
+        a                 esco:NodeLiteral ;
+        esco:language     "ro"^^xsd:language ;
+        esco:nodeLiteral  "Folosește semnale manuale la procedurile de transport, cum ar fi manevrarea încărcăturilor și a trenurilor în curbe lungi." .
+
+<http://data.europa.eu/esco/node-literal/b4fed49f-9455-40ea-a454-ecb6d1fa360c>
+        a                 esco:NodeLiteral ;
+        esco:language     "el"^^xsd:language ;
+        esco:nodeLiteral  "Οι πωλητές όπλων και πυρομαχικών πωλούν όπλα και πυρομαχικά για ατομική χρήση σε ειδικευμένα καταστήματα." .
+
+<http://data.europa.eu/esco/label/9c1e7e9e-4e23-4d16-a6d1-fd575bf989ed>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "studniar/studniarka"@sk .
+
+<http://data.europa.eu/esco/label/e5b302c0-408d-4aee-90c6-e95b8c84c1f2>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "3D CAD дизайнер"@bg .
+
+<http://data.europa.eu/esco/label/a21ec681-c4e7-46b3-8572-b5f73277775c>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "Aufsichtskraft Erdgasaufbereitung"@de .
+
+<http://data.europa.eu/esco/label/99c2afc2-620c-49a0-8807-61b0148b3427>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "estimer une consommation d’eau"@fr .
+
+<http://data.europa.eu/esco/label/edc09795-5bd6-447d-b935-1c1f84424225>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "vykonávať laboratórny chemický výskum kovov"@sk .
+
+<http://data.europa.eu/esco/isco/C9212/label/1EADA20C-ECED-11E5-A8F8-F968891CE521>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "Pomocniczy robotnicy przy chowie i hodowli zwierząt"@pl .
+
+<http://data.europa.eu/esco/label/2dbc0b4d-21b6-4b9d-b687-fbfd5eefae23>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "in Curry programmeren"@nl .
+
+<http://data.europa.eu/esco/label/44239e8b-db66-49a3-989b-f752a19942df>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "utilizar astilladoras"@es .
+
+<http://data.europa.eu/esco/label/6d6439c6-5d76-4878-a67e-0ec0536d8d17>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "poultry sexers"@en .
+
+<http://data.europa.eu/esco/label/509d4aec-36a3-4fff-b037-15120d17063a>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "kannar landbúnaðarakra"@is .
+
+<http://data.europa.eu/esco/label/a4e62da1-71c1-4c97-bf22-facfc39d1483>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "aktivity pro rekreaci"@cs .
+
+<http://data.europa.eu/esco/node-literal/52cfa8a0-941b-4442-8d87-001166909e47>
+        a                 esco:NodeLiteral ;
+        esco:language     "hr"^^xsd:language ;
+        esco:nodeLiteral  "Osobine i primjene različitih dijelova hidrauličke preše, kao što su klip, hidraulični cilindar, hidraulična tekućina, ram, gornji i donji kalup te drugi." .
+
+<http://data.europa.eu/esco/label/806b433d-b318-4528-a9d5-d9a447649ab4>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "betjene en lyskonsol"@da .
+
+<http://data.europa.eu/esco/node-literal/6548d09a-4ba4-46cd-b6db-3764017e81fe>
+        a                 esco:NodeLiteral ;
+        esco:language     "fr"^^xsd:language ;
+        esco:nodeLiteral  "Inspecter le parc ou une partie du parc. Consigner et signaler les problèmes tels que les pistes bloquées et les risques tels que le débordement des rivières." .
+
+<http://data.europa.eu/esco/label/10cbaf6e-5dcb-4a52-a559-a262d35913d4>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "metal container fabrication"@en .
+
+<http://data.europa.eu/esco/node-literal/769eaa22-37c8-4dda-941e-5453c60ec479>
+        a                 esco:NodeLiteral ;
+        esco:language     "en"^^xsd:language ;
+        esco:nodeLiteral  "The national and international requirements, specifications and guidelines to ensure that products, services and processes are of good quality and fit for purpose." .
+
+<http://data.europa.eu/esco/node-literal/b1b11423-76b6-48f2-a3a9-8da9cea46cbb>
+        a                 esco:NodeLiteral ;
+        esco:language     "mt"^^xsd:language ;
+        esco:nodeLiteral  "Il-psikologi edukattivi huma psikoloġi impjegati minn istituzzjonijiet edukattivi biex jipprovdu appoġġ psikoloġiku u emozzjonali lill-istudenti fil-bżonn. Huma jispeċjalizzaw fl-għoti ta’ appoġġ dirett u interventi lill-istudenti, fit-twettiq ta’ testijiet u valutazzjoni psikoloġiċi, u jikkonsultaw mal-familji, l-għalliema u professjonisti oħra ta’ appoġġ għall-istudenti bbażati fl-iskejjel, bħal ħaddiema soċjali tal-iskola u konsulenti edukattivi, dwar l-istudenti. Huma jistgħu wkoll jaħdmu mal-amministrazzjoni tal-iskola biex itejbu l-istrateġiji ta’ appoġġ prattiċi sabiex itejbu l-benesseri tal-istudenti." .
+
+<http://data.europa.eu/esco/node-literal/cd8fcaf8-0fa9-40d5-bbb0-99cead785e20>
+        a                 esco:NodeLiteral ;
+        esco:language     "hr"^^xsd:language ;
+        esco:nodeLiteral  "Razumjeti strojeve i alate, uključujući njihov dizajn, upotrebu, popravak i održavanje." .
+
+<http://data.europa.eu/esco/label/f0fdbab0-7e3e-4472-ade3-b5672f0f5b73>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "mecanic naval"@ro .
+
+<http://data.europa.eu/esco/node-literal/e03fa9c0-1dea-48ce-91a6-daef7ed6dbb2>
+        a                 esco:NodeLiteral ;
+        esco:language     "pl"^^xsd:language ;
+        esco:nodeLiteral  "Obsługiwanie maszyny do wyciskania przeznaczonej do formowania ciekłego metalu oraz kontrolowania jego temperatury rekrystalizacji po odlewaniu, jej monitorowanie i obsługa zgodnie z przepisami." .
+
+<http://data.europa.eu/esco/label/2cf87e40-2dd4-48ab-a2e0-7cda7d7c5c74>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "ħaddiem tal-magni tal-oġġetti tal-kartoleriji"@mt .
+
+<http://data.europa.eu/esco/label/bd6dd89a-bb55-48bd-bc21-5ed8ed48fc3f>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "capacité de chargement d'un avion"@fr .
+
+<http://data.europa.eu/esco/label/41e7c83a-eae7-4db5-8869-d444ea208967>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "construction labourer"@en .
+
+<http://data.europa.eu/esco/label/39e8d488-c07c-41cd-8d73-59d0d463fa95>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> ;
+        skosxl:literalForm  "Operador de máquinas de enchimento de cilindros de gases"@pt .
+
+<http://data.europa.eu/esco/label/41ea3127-5589-4da5-904b-85c653e737c5>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "механични компоненти на превозни средства"@bg .
+
+<http://data.europa.eu/esco/label/1348a504-9000-4546-81e3-de1314ba9c6d>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "operatur/operatriċi tal-ikkumpattar bit-tnixxif"@mt .
+
+<http://data.europa.eu/esco/node-literal/6a2d1849-986e-45ad-9fbe-31f7a11f27a5>
+        a                 esco:NodeLiteral ;
+        esco:language     "en"^^xsd:language ;
+        esco:nodeLiteral  "Search archives in order to find the sources needed for historical research." .
+
+<http://data.europa.eu/esco/label/35e5bd03-cca2-4b69-806f-d2d2253e072c>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> ;
+        skosxl:literalForm  "podnikový právnik"@sk .
+
+<http://data.europa.eu/esco/node-literal/7b12a319-a73d-4f96-8f4c-9bd4458626b3>
+        a                 esco:NodeLiteral ;
+        esco:language     "is"^^xsd:language ;
+        esco:nodeLiteral  "Mismunandi aðferðir sem notaðar eru til að biðja formlega um greiðslu vegna tjóns hjá vátryggingafélagi.." .
+
+<http://data.europa.eu/esco/node-literal/142f0419-1af5-4517-a486-262351410f7d>
+        a                 esco:NodeLiteral ;
+        esco:language     "fi"^^xsd:language ;
+        esco:nodeLiteral  "Hapettumisreaktioiden tunnistaminen metallissa ja korroosioasteen arviointi. Hapettuminen johtaa ruostumiseen, pistemäiseen korroosioon, rasitusmurtumiin yms." .
+
+<http://data.europa.eu/esco/label/cf2b4321-c9b9-4d9d-a4fc-678d350bf59d>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> ;
+        skosxl:literalForm  "microbiologă"@ro .
+
+<http://data.europa.eu/esco/label/65f74b87-d2e3-4bbd-9a37-e9483e30f891>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "Einbalsamierer/Einbalsamiererin"@de .
+
+<http://data.europa.eu/esco/label/500f3145-8f68-40ab-91f4-f1166b8d7404>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "traitement des métaux non ferreux"@fr .
+
+<http://data.europa.eu/esco/label/59d3af54-e932-4dda-8d21-05f63bdc1995>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "executar tarefas administrativas"@pt .
+
+<http://data.europa.eu/esco/label/a2303514-25a9-49dd-aa2e-3cc55a1a7af0>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "διενέργεια ανάλυσης πωλήσεων"@el .
+
+<http://data.europa.eu/esco/node-literal/ac34f1c6-48c7-4bb8-8ffa-84ba5dfe625c>
+        a                 esco:NodeLiteral ;
+        esco:language     "ar"^^xsd:language ;
+        esco:nodeLiteral  "إعداد وحدات تخزين الأسماك لاستقبال الأسماك. إجراء السباحة عبر الحلقات." .
+
+<http://data.europa.eu/esco/label/9a5c0cef-66c7-4d8c-8c2f-bd2eae68f81c>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> ;
+        skosxl:literalForm  "rukovatelj tokarilicom za izradbu furnira"@hr .
+
+<http://data.europa.eu/esco/label/4f06e3ed-c232-4eea-b8d8-829e4d58470f>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "laser engraving methods"@en-us .
+
+<http://data.europa.eu/esco/node-literal/8ceae540-6d6a-41fd-9f6a-44b4f126e395>
+        a                 esco:NodeLiteral ;
+        esco:language     "fi"^^xsd:language ;
+        esco:nodeLiteral  "Määrittää korkeat laatuvaatimukset ja ohjeet puheluille." .
+
+<http://data.europa.eu/esco/label/9b1fb04c-0971-4672-9cea-61a0bfb547ca>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "direttur tal-pretensjonijiet"@mt .
+
+<http://data.europa.eu/esco/label/c45a612c-f5a9-4087-bf31-426950df24e6>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> ;
+        skosxl:literalForm  "montážnička batérií"@sk .
+
+<http://data.europa.eu/esco/node-literal/974f66d5-bb6c-4cb0-898d-3f9de523946a>
+        a                 esco:NodeLiteral ;
+        esco:language     "ar"^^xsd:language ;
+        esco:nodeLiteral  "دراسة واستخدام المنطق الدقيق، حيث تقاس شرعية الحجج بالشكل المنطقي وليس بالمحتوى." .
+
+<http://data.europa.eu/esco/label/c125c02d-a523-4b17-b2c8-19b6d19a3b59>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/male> ;
+        skosxl:literalForm  "especialista en supervision y seguridad de maniobras de izaje de cargas con grúas"@es .
+
+<http://data.europa.eu/esco/label/fd0a33d7-5443-4faf-85d4-046dbb9b0be3>
+        a                   skosxl:Label ;
+        esco:hasLabelRole   <http://data.europa.eu/esco/label-role/female> , <http://data.europa.eu/esco/label-role/standard-female> , <http://data.europa.eu/esco/label-role/male> , <http://data.europa.eu/esco/label-role/standard-male> , <http://data.europa.eu/esco/label-role/neutral> ;
+        skosxl:literalForm  "analista de riesgo crediticio"@es .
+
+<http://data.europa.eu/esco/label/774d11c3-9400-4db1-a981-22b0fb47c9b7>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "familierett"@no .
+
+<http://data.europa.eu/esco/label/2773e78a-4954-4362-ae0d-85ec04987562>
+        a                   skosxl:Label ;
+        skosxl:literalForm  "uporabljati orodja IT"@sl .
+
